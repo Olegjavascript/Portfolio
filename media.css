@@ -1,0 +1,101 @@
+@media (max-width:1140px) {
+    .card {
+        width:calc(50% - 20px);
+    }
+    .portfolio {
+       padding:40px 0 80px 0;
+    }
+    .portfolio__title {
+        margin-bottom:50px;
+    }
+    .footer {
+        padding: 45px 0 60px;
+    }
+    .footer__row{
+
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+      }
+      .footer__grow {
+          margin-bottom: 30px;
+      }
+      .footer__grow:first-child {
+          margin-bottom: 0;
+      }
+   }
+   @media (max-width:730px)  {
+    .card__title {
+        font-size: 18px;
+    }
+    .card__sub {
+        font-size: 14px;
+    }
+   
+    }
+    
+
+
+@media (max-width:760px) {
+    .portfolio__title {
+        font-size: 30px;
+    }
+    .portfolio__wrapper-card {
+        justify-content: center;
+    }
+    .card {
+        width:100%;
+    }
+    .header__title {
+        font-size: 32px;
+    }
+    .header__description {
+        font-size: 14px;
+    }
+    .portfolio__title {
+        margin-bottom:30px;
+    }
+    .portfolio {
+        padding:30px 0 50px 0;
+     }
+    
+    .footer__contacts-btn {
+        font-size: 14px;
+        padding: 0 21px;
+    }
+    .footer__contacts-descr {
+        font-size: 14px;
+    }
+    .footer__social-title {
+        font-size: 14px;
+    }
+     .footer__social-link {
+        margin-left: 25px;
+            
+
+    }
+    .footer__copyright-name {
+        font-size: 20px;
+    }
+    .footer__copyright-descr{
+        font-size: 14px;
+    }
+    .forest__travel {
+        padding:40px 0 60px;
+       
+    }
+    .forest__travel-title {
+      font-size: 28px;
+      margin-bottom: 30px; 
+    }
+    .forest__travel-descr {
+        margin-bottom: 50px;
+        
+    
+    }
+    .forest__travel-btn {
+        width: 100%;
+        max-width: 315px;
+        padding: 0 15px;
+    }
+}
